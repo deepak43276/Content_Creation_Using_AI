@@ -7,7 +7,7 @@ type Props = {
 
 export default function ContentTypeSelector({ value, onChange }: Props) {
   return (
-    <div className="mb-4">
+    <div>
       <label className="block font-semibold mb-1">Content Type</label>
       <select
         value={value}

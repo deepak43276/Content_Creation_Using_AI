@@ -11,11 +11,15 @@ export default function ContentPage() {
   const [contentType, setContentType] = useState('blog');
 
   return (
-    <div className="max-w-2xl mx-auto py-8">
-      <h1 className="text-2xl font-bold mb-4">Content Generator</h1>
-      <ContentTypeSelector value={contentType} onChange={setContentType} />
-      <ContentGeneratorForm onResult={setContent} contentType={contentType} />
-      <ContentOutput content={content} />
+    <div className="bg-white">
+      <div className="flex flex-col items-center w-full max-w-md mx-auto gap-0">
+        <h1 className="text-3xl font-bold text-gray-800 text-center w-full whitespace-nowrap mb-4">Content Generator</h1>
+        <div className="mb-4 w-full flex justify-center">
+          <ContentTypeSelector value={contentType} onChange={setContentType} />
+        </div>
+        <ContentGeneratorForm onResult={setContent} contentType={contentType} />
+        <ContentOutput content={content} />
+      </div>
     </div>
   );
 } 
