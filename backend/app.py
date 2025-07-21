@@ -2,7 +2,7 @@
 # Main FastAPI app entry point.
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from backend.routes import content
+from routes import content
 
 app = FastAPI()
 
@@ -15,4 +15,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(content.router) 
+app.include_router(content.router)
+
+@app.get("/ping")
+def ping():
+    return {"message": "pong"} 

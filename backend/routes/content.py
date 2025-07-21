@@ -2,7 +2,7 @@
 # API routes for content generation (e.g., blog, script, tweet).
 from fastapi import APIRouter, HTTPException, Request
 from pydantic import BaseModel
-from backend.services.openai_service import generate_blog_content
+from services.openai_service import generate_blog_content
 
 router = APIRouter()
 
