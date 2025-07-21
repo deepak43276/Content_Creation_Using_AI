@@ -266,7 +266,7 @@ export default function ContentGeneratorForm({ onResult, contentType }: Props) {
           className={`py-2 px-8 rounded-lg font-bold opacity-100 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 shadow-lg text-lg tracking-wide mt-2
             ${isDisabled
               ? 'bg-gray-400 text-white pointer-events-none cursor-not-allowed'
-              : 'bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white hover:scale-105 hover:shadow-2xl hover:from-blue-600 hover:to-pink-600'}
+              : ' bg-gray-400 text-white hover:scale-105 hover:shadow-2xl hover:from-blue-600 hover:to-pink-600'}
           animate-fade-in delay-200`}
         >
           {loading ? (
