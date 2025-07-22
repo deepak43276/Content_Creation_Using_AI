@@ -18,8 +18,8 @@ Scribo is an AI-powered content generation app.
 
 ### Backend (Python + FastAPI)
 - `backend/app.py` — Main FastAPI app entry point
-- `backend/routes/` — API route handlers (content, feedback, brand)
-- `backend/services/` — Service logic (OpenAI, Pinecone, LangChain)
+- `backend/routes/` — API route handlers (content)
+- `backend/services/` — Service logic 
 - `backend/models/` — Data models and schemas
 
 ---
