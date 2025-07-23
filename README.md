@@ -78,5 +78,10 @@ npm run dev
 - Add new content types by updating the backend `/generate/content` logic and frontend forms.
 - Update the UI in `frontend/components/` for more features or branding.
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+
 ---
 
