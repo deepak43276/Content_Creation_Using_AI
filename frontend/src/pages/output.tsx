@@ -16,7 +16,7 @@ export default function OutputPage() {
   if (!content) return null;
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-white">
+    <div className="min-h-screen flex items-center justify-center bg-white text-black">
       <div className="max-w-2xl w-full mx-auto p-6">
         <ContentOutput content={content} />
       </div>
