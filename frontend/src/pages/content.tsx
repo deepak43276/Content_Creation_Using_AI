@@ -1,6 +1,6 @@
 // content.tsx
-// Content Generator page. Shows ContentGeneratorForm, ContentOutput, and FeedbackLoop.
-// NOTE: Make sure to install React and @types/react in your project.
+// Content Generator page. Shows ContentGeneratorForm, ContentTypeSelector, and handles content generation.
+
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import ContentTypeSelector from '../components/ContentTypeSelector';

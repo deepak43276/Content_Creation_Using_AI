@@ -47,7 +47,7 @@ OPENROUTER_API_KEY=your_openrouter_api_key
 
 #### Run the Backend
 ```sh
-uvicorn app:app --reload
+uvicorn app:app --reload 
 ```
 - The backend will be available at [http://127.0.0.1:8000](http://127.0.0.1:8000)
 - API docs: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
@@ -71,6 +71,7 @@ npm run dev
 2. Select a content type and fill in the form.
 3. Click "Generate" to create content.
 4. The generated content will appear on a new page.
+5. Download the Generated Content as PDF.
 
 ---
 
@@ -80,7 +81,7 @@ npm run dev
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 
 ---
